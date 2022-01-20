@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+    <div class="top">
+        <img src="https://static.tomtop.com/tomtop/acount/icon/logo.png?v=3" alt="">
+    </div>
+    <div class="login-box">
+        <h2>Sign In </h2>
+        <h4>Sign In with</h4>
+        <div class="online-login">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG3I0D9YopBvB5dk5xcSu192NmSK0QFyUoDg&usqp=CAU" alt="" > <a href="https://www.facebook.com/"></a>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk4fzsbwnDUgqvGyCfYEdWOuXTS0bZWtgMIg&usqp=CAU" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCYXWQAM2JiEMKmDUlFB4q0PIIKm9xc3hXDg&usqp=CAU" alt="">
+
+        </div>
+        <div class="or">
+            <p>----------OR----------</p>
+        </div>
+        <form id="myForm" onsubmit="signin1(event)" action="">
+            <label></label>
+            <input type="email" placeholder="Email Address" id="Email">
+            <label></label>
+            <input type="password" placeholder="Password" id="Password">
+            <label style="font-size: 15px; color: gray;">Forget Your Password</label>
+           
+            <input type="submit">
+            <p class="para-2">New To Tomtop? <a href="signup1.html">Sign Up Here</a></p>
+        </form>
+    </div>
+   
+</body>
+</html>
+
+<script>
+    function signin1(e){
+    e.preventDefault();
+    let myForm=document.getElementById("myForm");
+    let Email=myForm.Email.value;
+    let Password=myForm.Password.value;
+
+let all_users=JSON.parse(localStorage.getItem("users"))
+   
+all_users.forEach(function(user){
+if(Email===user.Email && Password===user.Password){
+    alert("Logged in succesfully")
+}
+else{
+    alert("User not Found")
+}
+
+})
+
+    }
+</script>

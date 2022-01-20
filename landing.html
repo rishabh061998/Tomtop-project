@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="x-apple-disable-message-reformatting">
+  <title>Tomtop</title>
+  <style>
+    table, td, div, h1, p {font-family: Arial, sans-serif;}
+  </style>
+  <link type="text/css" href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="top_head">
+      <a href="#">
+        <img src="chritmas.jpg">
+      </a></div>
+    <div class="head">
+      <div class="wrap_head">
+        <div class="logo">
+          <a href="landing.html">
+            <img src="logo.jpg">
+          </a>
+        </div>
+        <div class="choose_country" id="country">
+          <span class="flag"><i><img src="icon/united-states.png"></i></span>
+          <span>|</span>
+          <span class="coun_text">English</span>
+          <i class="fa fa-caret-down"></i>
+        </div>
+        <div class="serach_box">
+          <div class="top_search">
+            <div class="dd_btn">
+              <div class="show_result">All <i class="fa fa-caret-down"></i></div>
+            </div>
+            <div class="dd_list" style="display: none;"></div>
+            <input type="text" value placeholder=" What are you loonking for ?" style="width: 363px">
+            <a type="button" class="search_btn"><i class="fa fa-search"></i></a>
+          </div>
+          <div class="bottom_search">
+            <ul class="hot_search">
+              <li><a href="#">Popular Earphones</a></li>
+              <li><a href="#">Smartphones</a></li>
+              <li><a href="#">3d Printers</a></li>
+              <li><a href="#">Electric Bikes</a></li>
+              <li><a href="#">Sports Watch</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="head_right">
+          <div class="sign_in">
+            <div class="active_icon" id="user"><a href=""><img src="icon/user.png">
+              <p>Sign In</p> </a>
+              <div class="drop_msg">
+                <h5>Welcome to TOMTOP</h5>
+                <a class="signin" href="signin.html"> Sign In </a>
+              </div>
+            </div>
+            <div class="active_icon" id="fav"><a href=""><img src="icon/heart.png">
+              <p>Favorites</p> </a>
+            </div>
+            <div class="active_icon" id="cart"><a href="cart.html"><img src="icon/cart.png">
+              <p>Cart</p> </a>
+              <div class="drop_msg cart1">
+                <h5>Welcome to TOMTOP</h5>
+                <a class="signin" href=""> Sign In </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav">
+      <div class="nav_bar">
+      <ul class="navigation">
+        <li><a href="">New Arrivals</a></li>
+        <li><a href="">Flash Deals <i class="fa fa-caret-down"></i></a>
+          <div class="nav_drop">
+            <a href=""> Top Sellers </a>
+          </div>
+        </li>
+        <li><a href="">Coupons<i class="fa fa-caret-down"></i></a>
+          <div class="nav_drop">
+            <a href=""> New Buyer Zone </a>
+          </div>
+        </li>
+        <li><a href="">Social Savings<i class="fa fa-caret-down"></i></a>
+          <div class="nav_drop">
+            <a href=""> Slash Price </a>
+            <a href=""> Get Free Gift </a>
+          </div>
+        </li>
+        <li><a href="">Clearence<i class="fa fa-caret-down"></i></a>
+          <div class="nav_drop">
+            <a href=""> Second Hand </a>
+            <a href=""> Forum </a>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="banner">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="banner.jpg" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="banner03.jpg" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="banner.jpg" style="width:100%;">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+
+    <div class="section">
+      <div class="sale">
+        <ul class="flash_sale">
+          <li><a href=""><img src="image/sale/flash-sale-1.jpg"></a><p>Flash Sale</p></li>
+          <li><a href=""><img src="image/sale/flash-sale-2.jpg"></a><p>Extra 50% Off Coupon</p></li>
+          <li><a href=""><img src="image/sale/flash-sale-3.jpg"></a><p>Get Free Gift</p></li>
+          <li><a href=""><img src="image/sale/flash-sale-4.jpg"></a><p>New Arrivals</p></li>
+          <li><a href=""><img src="image/sale/flash-sale-5.jpg"></a><p>New Buyers Only</p></li>
+        </ul>
+      </div>
+
+    <div class="container center">
+      <div id="myCarousel" class="carousel slide inline_block" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <ul class="list_items">
+              <li class="product_item">
+                <div class ="product_img"><a href="productpage.html"><img src="image/watch.png"></a></div>
+                <div class="product_details">
+                  <h5><a href="productpage.html">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><a href="productpage.html"><img src="image/watch1.png"></a></div>
+                <div class="product_details">
+                  <h5><a href="productpage.html">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><a href="productpage.html"><img src="image/watch.png"></a></div>
+                <div class="product_details">
+                  <h5><a href="productpage.html">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><a href="productpage.html"><img src="image/watch1.png"></a></div>
+                <div class="product_details">
+                  <h5><a href="productpage.html">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul class="list_items">
+              <li class="product_item">
+                <div class ="product_img"><a href="productpage.html"><img src="image/watch.png"></a></div>
+                <div class="product_details">
+                  <h5><a href="productpage.html">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><a href="productpage.html"><img src="image/watch1.png"></a></div>
+                <div class="product_details">
+                  <h5><a href="productpage.html">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><a href="productpage.html"><img src="image/watch.png"></a></div>
+                <div class="product_details">
+                  <h5><a href="productpage.html">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><a href="productpage.html"><img src="image/watch1.png"></a></div>
+                <div class="product_details">
+                  <h5><a href="productpage.html">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+     
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+
+      <div id="myCarousel" class="carousel slide inline_block" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <ul class="list_items">
+              <li class="product_item">
+                <div class ="product_img"><a href="productpage.html"><img src="image/watch.png"></a></div>
+                <div class="product_details">
+                  <h5><a href="productpage.html">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><a href="productpage.html"><img src="image/watch1.png"></a></a></div>
+                <div class="product_details">
+                  <h5><a href="productpage.html">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch1.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul class="list_items">
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch1.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch1.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+     
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div id="myCarousel" class="carousel slide inline_block" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <ul class="list_items">
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch1.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch1.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul class="list_items">
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch1.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+              <li class="product_item">
+                <div class ="product_img"><img src="image/watch1.png"></div>
+                <div class="product_details">
+                  <h5><a href="">E9 8 Inch Height Adjustable Folding Electric Scooter</a></h5>
+                  <div class="m_progress_bar">
+                    <div class=" bar_wrap">
+                      <div style="width:67%" class="bar_wrap_cont"></div>
+                    </div>
+                  <div class="lineBlock bar_sale">
+                    <span class="pro_sell" data-sell="200">200</span>/
+                    <span class="pro_count" data-procount="297">297</span>
+                       pcs sold</div>
+                  </div>
+                  <div class="product_price">
+                    <p class="current_price " usvalue="129.99">US$129.99</p>
+                    <p class="original_price" usvalue="269.53">US$269.53</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+     
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    
+  </div>
+    </div>
+
+  <div class="footer">
+    <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company Info</h4>
+                    <ul>
+                        <li><a href="#">About TOMTOP</a></li>
+                        <li><a href="#">site Map</a></li>
+                        <li><a href="#">Legal Windows</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Policies & Service</h4>
+                    <ul>
+                        <li><a href="#">Terms & conditions</a></li>
+                        <li><a href="#">Support FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Reseller Ratings</a></li>
+                        <li><a href="#">Second-Hand Rules</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Partner Program</h4>
+                    <ul>
+                        <li><a href="#">Get it Free</a></li>
+                        <li><a href="#">Affilaite Program </a></li>
+                        <li><a href="#">Wholesome Program</a></li>
+                        <li><a href="#">Dropship Program</a></li>
+                        <li><a href="#">Super User Program</a></li>
+                        <li><a href="#">Students Exclusive</a></li>
+                        <li><a href="#">See All</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+  <div class="outer-footer">
+        Copyright &copy;© 2004 - 2021 TOMTOP All Rights Reserved. (Build: 2305)
+    </div>
+</body>
+</html>
